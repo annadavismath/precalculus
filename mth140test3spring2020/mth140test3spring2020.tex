@@ -1,0 +1,164 @@
+\documentclass{ximera}
+
+
+\author{Anna Davis} \title{MTH 160 Test 3} 
+
+\begin{document}
+
+\begin{abstract}
+
+\end{abstract}
+\maketitle
+ \textit{You have 1 hour and 20 minutes to complete this test.  Each answer is worth 1 point.}
+\begin{problem}\label{prob:exam3prob1}
+Suppose that a national survey has found that the average amount of time that first-year college students spent preparing for class in 2017 was 13.2 hours per week with a standard deviation of 2.1 hours.  A college dean wonders if the average class prep time for her first-year students differs from the 2017 national average.  A random sample of 200 first-year students is selected and the mean class prep time is found to be 12.9 hours per week.  Perform a hypothesis test at a 5\% level of significance.
+
+$$\overline{x}=\answer{12.9},\quad \sigma=\answer{2.1},\quad n=\answer{200}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{13.2}$$
+Alternative Hypothesis
+$$H_a:\quad \mu\neq\answer{13.2}$$
+Find the $z$-score (round to 4 decimal places)
+$$z=\answer[tolerance=0.001]{-2.0203}$$
+Find the $p$-value
+\begin{center}  
+\geogebra{emwxhga2}{800}{600}  
+\end{center}
+$$p=\answer[tolerance=0.001]{0.0434}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice[correct]{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice[correct]{At the 0.05 level of significance, there is enough evidence to conclude that the average amount of time the dean's students spend studying is different from the national average.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to conclude that the average amount of time the dean's students spend studying is different from the national average.} 
+\end{multipleChoice} 
+
+\end{problem}
+
+\begin{problem}\label{prob:exam3prob2}
+Construct a 90\% confidence interval for the population mean if the population standard deviation is known to be 8.5, and a simple random sample of size 180 had the mean 122.4.
+
+Summary of given info:
+$$\sigma=\answer{8.5}$$
+$$\overline{x}=\answer{122.4}$$
+$$n=\answer{180}$$
+Use the Critical $z$-value table to find $z_{\alpha/2}$
+$$z_{\alpha/2}=\answer{1.645}$$
+Error Bound for the Mean:
+$$EBM=\answer{1.645}\frac{\answer{8.5}}{\answer[tolerance=0.01]{\sqrt{180}}}=\answer[tolerance=0.01]{1.042}$$
+The 90\% confidence interval is:
+$$(\answer[tolerance=0.01]{121.36},\answer[tolerance=0.01]{123.44})$$
+\end{problem}
+
+\begin{problem}\label{prob:exam3prob3}
+Mean entry-level salaries for college graduates with mechanical engineering degrees and electrical engineering degrees are believed to be approximately the same. A recruiting office thinks that the mean mechanical engineering salary is
+actually lower than the mean electrical engineering salary. The recruiting office randomly surveys 50 entry level mechanical
+engineers and 60 entry level electrical engineers. Their mean salaries were \$46,100 and \$46,700, respectively. Their
+standard deviations were \$3,450 and \$4,210, respectively. Conduct a hypothesis test to determine if you agree that the mean
+entry-level mechanical engineering salary is lower than the mean entry-level electrical engineering salary. (Use 0.05 confidence level.)
+
+Summarize the information for mechanical engineers.
+$$\overline{x}_m=\answer{46100},\quad s_m=\answer{3450},\quad n_m=\answer{50}$$
+
+Summarize the information for electrical engineers.
+$$\overline{x}_e=\answer{46700},\quad s_e=\answer{4210},\quad n_e=\answer{60}$$
+
+Null Hypothesis:
+
+$H_0:\quad \mu_m-\mu_e=0$ 
+
+Alternative Hypothesis:
+
+$H_a:\quad \mu_m-\mu_e$ \wordChoice{\choice[correct]{$<0$}, \choice{$\neq 0$}, \choice{$>0$}}
+
+Find the $t$-score (round to four decimal places)
+$$t=\answer[tolerance=0.001]{-0.8215}$$
+Find degrees of freedom
+$$\mbox{df}=\answer[tolerance=0.01]{107.9758}$$
+Find the $p$-value
+\begin{center}  
+\geogebra{emwxhga2}{800}{600}  
+\end{center}
+$$p=\answer[tolerance=0.01]{0.2067}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice[correct]{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice{At the 0.05 level of significance, there is enough evidence to conclude that electrical engineers' starting salaries are on average higher than starting salaries of mechanical engineers.}  
+\choice[correct]{At the 0.05 level of significance, there is not enough evidence to conclude that electrical engineers' starting salaries are on average higher than starting salaries of mechanical engineers.} 
+\end{multipleChoice} 
+
+\end{problem}
+
+\begin{problem}\label{prob:exam3prob4}
+A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 31 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours.  Construct a 95\% confidence interval for the population mean time spent waiting.
+
+Summary of given info:
+$$\overline{x}=\answer{1.5}$$
+$$s=\answer{0.5}$$
+$$n=\answer{31}$$
+$$df=\answer{30}$$
+Use the Critical $t$-value table to find $t_{\alpha/2}$
+$$t_{\alpha/2}=\answer{2.042}$$
+Error Bound for the Mean:
+$$EBM=\answer{2.042}\frac{\answer{0.5}}{\answer[tolerance=0.01]{\sqrt{31}}}=\answer[tolerance=0.01]{0.1834}$$
+The 95\% confidence interval is:
+$$(\answer[tolerance=0.01]{1.317},\answer[tolerance=0.01]{1.68})$$
+\end{problem}
+
+\begin{problem}\label{prob:exam3prob5}
+A bakery claims that their signature cookie contains 250 grams of sugar.  An inspector is wondering if the amount of sugar in a cookie is greater than 250 grams.  He tests a random sample of 44 cookies for their sugar content.  The sample mean amount of sugar is found to be 255.3 grams of sugar per cookie, with sample standard deviation of 2.1 grams.  Conduct a hypothesis test to determine if the average amount of sugar in a cookie exceeds 250 grams.  Use $\alpha=0.01$.
+
+$$\overline{x}=\answer{255.3},\quad s=\answer{2.1},\quad n=\answer{44},\quad df=\answer{43}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{250}$$
+Alternative Hypothesis
+$$H_a:\quad \mu>\answer{250}$$
+Find the $t$-score
+$$t=\answer[tolerance=0.01]{16.74}$$
+Find the $p$-value
+\begin{center}  
+\geogebra{emwxhga2}{800}{600}  
+\end{center}
+$$p=\answer[tolerance=0.01]{0}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice[correct]{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice[correct]{At the 0.05 level of significance, there is enough evidence to conclude that the mean amount of sugar per cookie is greater than 250 grams.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to conclude that the mean amount of sugar per cookie is greater than 250 grams.} 
+\end{multipleChoice} 
+\end{problem}
+
+
+\end{document} 
