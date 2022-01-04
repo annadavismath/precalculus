@@ -8,108 +8,213 @@
 
 \end{abstract}
 \maketitle
- \textit{Certificate due: 3/15/2021 at 11:59 p.m.}
-\begin{problem}\label{prob:140hom6prob5}
-A machine that fills juice bottles at a factory is supposed to pour 24 fl.oz. into each bottle.  It is known from past experiments that the distribution of fill amounts is normal with a standard deviation of 0.21 fl.oz. A simple random sample of 9 bottles is tested and the sample mean amount is found to be 23.9 fl.oz.  Construct a 95\% confidence interval for the fill amount. 
-
-Summary of given info:
-$$\sigma=\answer{0.21}$$
-$$\overline{x}=\answer{23.9}$$
-$$n=\answer{9}$$
-Use the Critical $z$-value table in your lecture notes to find $z_{\alpha/2}$
-$$z_{\alpha/2}=\answer{1.96}$$
-Error Bound for the Mean:
-$$EBM=\answer{1.96}\frac{\answer{0.21}}{\answer{3}}=\answer{0.1372}$$
-(Keep all significant digits in your calculator as you are doing the problem.  Enter your answer to 4 decimal places.)
-
-The 95\% confidence interval is:
-$$(\answer{23.7628},\answer{24.0372})$$
-
-Assuming that 24 fl.oz. is the true mean for the fill amounts, how likely was the factory to get a sample of nine bottles with a mean of 23.9 fl.oz. or less?  Use GeoGebra to find your answer.  Enter your answer to four decimal points.
+% \textit{Certificate due: 4/6/2021 at 11:59 p.m.}
+ \begin{problem}\label{prob:140hom9prob4}
+Caleb wants to improve his long-jump.  His current mean length for the jump is 6.5 meters with a standard deviation of 0.35 meters.  Caleb adopts a new training routine.  To show that the new training routine was effective in increasing the length of his jumps, he measures 12 jumps. He finds that the average for the 12 jumps is 6.6 meters.  Assume normal distribution for jump lengths.  Conduct a hypothesis test using a 0.05 level of significance to determine if the training routine improved Caleb's results.
+$$\sigma=\answer{0.35},\quad n=\answer{12},\quad \overline{x}=\answer{6.6}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{6.5}$$
+Alternative Hypothesis
+$$H_a:\quad \mu>\answer{6.5}$$
+Find the test statistic (round to four decimal places)
+$$z=\answer[tolerance=0.001]{0.9897}$$
+Find the $p$-value (round to four decimal places)
 \begin{center}  
 \geogebra{emwxhga2}{800}{600}  
 \end{center}
-$$\answer{0.0766}$$
+$$p=\answer[tolerance=0.01]{0.1612}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice[correct]{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice{At the 0.05 level of significance, there is enough evidence to conclude that Caleb's jump has improved.}  
+\choice[correct]{At the 0.05 level of significance, there is not enough evidence to conclude that Caleb's jump has improved.} 
+\end{multipleChoice} 
 \end{problem}
 
+\begin{problem}\label{prob:140hom9prob5}
+Suppose that a consumer group claims that the average price of gas in Ohio on a certain day was \$1.62, with standard deviation of 0.06.  Chris claims that the average price of gas in his zip code is the same as the state average.  Chris' friend, Mark, thinks that Chris' zip code has more expensive gas than the state as a whole.  Mark samples seven gas stations in Chris' zip code and finds the sample mean to be \$1.68.  Assume that gas prices are normally distributed and that the state standard deviation is the same as the standard deviation for Chris' zip code. Conduct a hypothesis test using a 0.05 level of significance to determine whether the average price in Chris' zip code really is higher than the average price in the state.
+$$\sigma=\answer{0.06},\quad n=\answer{7},\quad \overline{x}=\answer{1.68}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{1.62}$$
+Alternative Hypothesis
+$$H_a:\quad \mu>\answer{1.62}$$
+Find the test statistic (round to four decimal places)
+$$z=\answer[tolerance=0.001]{2.6458}$$
+Find the $p$-value (round to four decimal places)
+\begin{center}  
+\geogebra{emwxhga2}{800}{600}  
+\end{center}
+$$p=\answer[tolerance=0.001]{0.0041}$$
+Decision:
 
-\begin{problem}\label{prob:140hom6prob4}
-Suppose exam scores are normally distributed with an unknown population mean and a population standard deviation of 10 points. A random sample of 120 scores is taken and gives a sample mean of 72. Follow the indicated steps to find a 98\% confidence interval for the true (population) mean of exam scores.
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice[correct]{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
 
-Summary of given info:
-$$\sigma=\answer{10}$$
-$$\overline{x}=\answer{72}$$
-$$n=\answer{120}$$
-Use the Critical $z$-value table in your lecture notes to find $z_{\alpha/2}$
-$$z_{\alpha/2}=\answer{2.33}$$
-Error Bound for the Mean:
-$$EBM=\answer{2.33}\frac{\answer{10}}{\answer[tolerance=0.01]{\sqrt{120}}}=\answer[tolerance=0.01]{2.127}$$
-(Keep all significant digits in your calculator as you are doing the problem.  Round your answers to 3 decimal places.)
+Conclusion:
 
-The 98\% confidence interval is:
-$$(\answer[tolerance=0.05]{69.873},\answer[tolerance=0.05]{74.127})$$
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice[correct]{At the 0.05 level of significance, there is enough evidence to conclude that the average price of gas in Chris' zip code is higher than the state average.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to conclude that the average gas price in Chris' zip code is higher than the state average.} 
+\end{multipleChoice} 
+
+\end{problem}
+ 
+ \begin{problem}\label{prob:140hom9prob3}
+Based on customer surveys, a local bakery knows that a certain cookie has an average rating of 8.2 (on a scale from 1 to 10), with a standard deviation of 1.05.  The bakery changes the recipe slightly and  surveys 60 customers to determine if the average rating has changed.  The sample mean rating is found to be 8.5. Assuming that the population standard deviation remains the same. Using a 5\% significance level can we conclude that the average rating has changed?
+$$\overline{x}=\answer{8.5},\quad \sigma=\answer{1.05},\quad n=\answer{60}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{8.2}$$
+Alternative Hypothesis
+$$H_a:\quad \mu\neq\answer{8.2}$$
+Find the test statistic (round to four decimal places)
+$$z=\answer[tolerance=0.01]{2.2131}$$
+Find the $p$-value (round to four decimal places)
+\begin{center}  
+\geogebra{emwxhga2}{800}{600}  
+\end{center}
+$$p=\answer[tolerance=0.001]{0.0268}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice[correct]{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice[correct]{At the 0.05 level of significance, there is enough evidence to conclude that the average rating has changed.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to conclude that the average rating has changed.} 
+\end{multipleChoice} 
+
 \end{problem}
 
-
-For this assignment, please use GeoGebra for your critical $t$ values and keep all four digits in your intermediate computations.  Round as indicated in each problem.
  
- \begin{problem}\label{prob:140hom7prob3}
- Find the critical $t$ value for each of the following scenarios.
- \begin{center}  
+ \begin{problem}\label{prob:140hom9prob1}
+Suppose that a national survey has found that the average amount of time that first-year college students spent preparing for classes in 2017 was 13.2 hours per week with a standard deviation of 2.1 hours.  A college dean wonders if the average class prep time for her first-year students is lower than the 2017 national average.  A random sample of 200 first-year students is selected and the mean class prep time is found to be 12.9 hours per week.  Perform a hypothesis test at a 5\% level of significance.
+
+$$\overline{x}=\answer{12.9},\quad \sigma=\answer{2.1},\quad n=\answer{200}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{13.2}$$
+Alternative Hypothesis
+$$H_a:\quad \mu<\answer{13.2}$$
+Find the test statistic (round to 4 decimal places)
+$$z=\answer[tolerance=0.001]{-2.0203}$$
+Find the $p$-value
+\begin{center}  
 \geogebra{emwxhga2}{800}{600}  
 \end{center}
-\begin{enumerate}
-    \item $CL=0.98, n=102$
-    $$t_{\alpha/2}=\answer{2.3638}$$
-    \item $CL=0.8, n=128$
-    $$t_{\alpha/2}=\answer{1.2883}$$
-    \item $CL=0.95, n=44$
-    $$t_{\alpha/2}=\answer{2.0167}$$
-\end{enumerate}
- \end{problem}
+$$p=\answer[tolerance=0.001]{0.0217}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice[correct]{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice[correct]{At the 0.05 level of significance, there is enough evidence to conclude that the average amount of time the dean's students spend studying is less than the national average.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to conclude that the average amount of time the dean's students spend studying is less than the national average.} 
+\end{multipleChoice} 
+
+\end{problem}
  
- \begin{problem}\label{prob:140hom7prob1}
- A customer survey measured customer satisfaction with their dining experience on a scale from 1 (not satisfied) to 5 (very satisfied).  The survey was administered to 47 randomly selected customers.  The sample had a mean of 4.4 and standard deviation of 0.35.  
  
- Summarize the given information:
- $$n=\answer{47},\quad\overline{x}=\answer{4.4},\quad s=\answer{0.35},\quad df=\answer{46}$$
- 
- Construct a 90\% confidence interval for the mean satisfaction rating.
- 
-  Use GeoGebra to find the the critical $t$-value. 
- \begin{center}  
+ \begin{problem}\label{prob:140hom9prob2}
+A bakery claims that their signature cookie contains 250 grams of sugar.  An inspector is wondering if the amount of sugar in a cookie is greater than 250 grams.  He tests a random sample of 44 cookies for their sugar content.  The sample mean amount of sugar is found to be 255.3 grams of sugar per cookie, with sample standard deviation of 2.1 grams.  Conduct a hypothesis test to determine if the average amount of sugar in a cookie exceeds 250 grams.  Use $\alpha=0.01$.
+
+$$\overline{x}=\answer{255.3},\quad s=\answer{2.1},\quad n=\answer{44},\quad df=\answer{43}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{250}$$
+Alternative Hypothesis
+$$H_a:\quad \mu>\answer{250}$$
+Find the test statistic (round to two decimal places)
+$$t=\answer[tolerance=0.01]{16.74}$$
+Find the $p$-value
+\begin{center}  
 \geogebra{emwxhga2}{800}{600}  
 \end{center}
-$$t_{\alpha/2}=\answer{1.6787}$$
-Error Bound for the Mean:
-$$EBM=\answer{1.6787}\frac{\answer{0.35}}{\sqrt{\answer{47}}}=\answer{0.086}$$
-(Keep all significant digits in your calculator as you are doing the problem.  Round your answer to 3 decimal places.)
+$$p=\answer[tolerance=0.01]{0}$$
+Decision:
 
-The 90\% confidence interval is:
-$$(\answer{4.314},\answer{4.486})$$
- 
- \end{problem}
- 
- \begin{problem}\label{prob:140hom7prob2}
- The following is a random sample of gas prices from 8 gas stations on the north-east side of Columbus. (October 11, 2020)
- $$1.95, 1.92, 1.99, 1.81, 1.86, 1.97, 1.99, 1.85$$
- Find the sample mean, sample standard deviation and degrees of freedom.  Round non-integer values to three decimal places.
- $$\overline{x}=\answer{1.918},\quad s=\answer{0.069},\quad df=\answer{7}$$
- 
- Suppose that gas prices are approximately normally distributed.  Construct a 95\% confidence interval for the mean price of gasoline on the north-east side.
- 
- Use GeoGebra to find the the critical $t$-value. 
- \begin{center}  
-\geogebra{emwxhga2}{800}{600}  
-\end{center}
-$$t_{\alpha/2}=\answer{2.3646}$$
-Error Bound for the Mean:
-$$EBM=\answer{2.3646}\frac{\answer{0.069}}{\sqrt{\answer{8}}}=\answer{0.058}$$
-(Keep all significant digits in your calculator as you are doing the problem.  Round your answer to 3 decimal places.)
+\begin{multipleChoice} 
+\choice[correct]{$p$-value is less than 0.01.  We reject the null hypothesis.}  
+\choice{$p$-value is less than 0.01.  We do not reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.01.  We reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.01.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
 
-The 95\% confidence interval is:
-$$(\answer{1.86},\answer{1.976})$$
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.01 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.01 level of significance, there is not enough evidence to make any conclusions.} 
+\choice[correct]{At the 0.01 level of significance, there is enough evidence to conclude that the mean amount of sugar per cookie is greater than 250 grams.}  
+\choice{At the 0.01 level of significance, there is not enough evidence to conclude that the mean amount of sugar per cookie is greater than 250 grams.} 
+\end{multipleChoice} 
 \end{problem}
 
+\begin{problem}\label{prob:140hom9prob6}
+The average price for a gallon of unleaded gasoline in Columbus, OH on April 8, 2020 was \$1.655.  Suppose that I suspect that the mean gas price in my neighborhood is higher than the city average.  I randomly select six gas stations and find the following gas prices:
+$$1.85,\quad 1.75, \quad 1.69,\quad 1.79,\quad 1.56,\quad 1.59$$
+Conduct a hypothesis test using a 0.05 level of significance to determine if there is evidence that the mean gas price in my neighborhood is higher than the city average.  (You may assume that gas prices are approximately normally distributed.)
 
+Use Google Sheets to find sample standard deviation.  Round standard deviation to four decimal places.
+$$\overline{x}=\answer[tolerance=0.01]{1.705},\quad s=\answer[tolerance=0.001]{0.1138},\quad n=\answer{6},\quad df=\answer{5}$$
+Null Hypothesis
+$$H_0:\quad \mu=\answer{1.655}$$
+Alternative Hypothesis
+$$H_a:\quad \mu>\answer{1.655}$$
+Find the test statistic (round to four decimal places)
+$$t=\answer[tolerance=0.01]{1.0762}$$
+Find the $p$-value(round to four decimal places)
+\begin{center}  
+\geogebra{emwxhga2}{800}{600}  
+\end{center}
+$$p=\answer[tolerance=0.001]{0.1655}$$
+Decision:
+
+\begin{multipleChoice} 
+\choice{$p$-value is less than 0.05.  We reject the null hypothesis.}  
+\choice{$p$-value is less than 0.05.  We do not reject the null hypothesis.} 
+\choice{$p$-value is greater than 0.05.  We reject the null hypothesis.} 
+\choice[correct]{$p$-value is greater than 0.05.  We do not reject the null hypothesis.}  
+\end{multipleChoice}  
+
+Conclusion:
+
+\begin{multipleChoice} 
+\choice{At the 0.05 level of significance, we have proved the null hypothesis.}  
+\choice{At the 0.05 level of significance, there is not enough evidence to make any conclusions.} 
+\choice{At the 0.05 level of significance, there is enough evidence to conclude that the mean gas price in my neighborhood is higher than the city average.}  
+\choice[correct]{At the 0.05 level of significance, there is not enough evidence to conclude that the mean gas price in my neighborhood is higher than the city average.} 
+\end{multipleChoice} 
+\end{problem}
 \end{document}
